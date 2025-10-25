@@ -1,0 +1,61 @@
+# macOS artifacts
+.DS_Store
+
+# Visual Studio user-specific settings and caches
+.vs/
+*.suo
+*.user
+*.userosscache
+*.VC.db
+*.VC.opendb
+*.opendb
+*.sdf
+*.cachefile
+*.ipch
+ipch/
+*.pdb
+*.idb
+*.ilk
+*.obj
+*.tlog/
+*.lastbuildstate
+*.log
+
+# Preserve shipped debug symbols
+!lib/*.pdb
+
+# Visual Studio build output directories
+/x64/
+/AR_Framework/x64/
+/AR_Framework/Debug/
+/AR_Framework/Release/
+Debug/
+Release/
+
+# Xcode generated files
+DerivedData/
+*.xcworkspace
+*.xcuserstate
+*.xccheckout
+*.xcscmblueprint
+*.moved-aside
+xcuserdata/
+*.dSYM
+
+# Common C/C++ build outputs
+*.o
+*.d
+*.pch
+*.gch
+*.su
+*.lo
+*.la
+*.prl
+*.out
+*.app
+*.exe
+
+# Generic build directories
+/build/
+/bin/
+/out/
